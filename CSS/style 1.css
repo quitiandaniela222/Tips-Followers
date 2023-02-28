@@ -1,0 +1,52 @@
+img {
+  display: block;
+  margin: auto;
+}
+header {
+  background-repeat: repeat-y;
+}
+header {
+  background: rgba(241, 121, 187, 0.7);
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  margin-top: center;
+}
+nav ul li a {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+nav ul li:hover {
+  background: #fffdfa;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background {
+  text-align: center;
+  color: rgb(88, 16, 79);
+}
+[href] {
+  color: rgb(10, 0, 5);
+}
+a:hover {
+  color: rgb(233, 24, 87)
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(190, 66, 228)
+}
+finish {
+  display: block;
+  margin: auto;
+}
+finish {
+  background-repeat: repeat-y;
+}

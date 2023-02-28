@@ -1,0 +1,31 @@
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	float: left;
+	margin-top: center;
+}
+nav ul li a {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 18px;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li:hover {
+	background: #fffdfa;
+}
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+text-align: center;
+font-size: 24px;
+color: rgb(190, 66, 228)
+}
+img 
+{
+display: block;
+margin: auto;
+}
