@@ -1,0 +1,43 @@
+img {
+    display: block;
+    margin: auto;
+}
+header {
+    background-repeat: repeat-y;
+}
+header {
+    background: rgba(241, 121, 187, 0.7);
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    margin-top: center;
+}
+nav ul li a {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li:hover {
+    background: #fffdfa;
+}
+
+* {
+    font-family: Georgia;
+}
+h3 {
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.background {
+    text-align: center;
+    color: rgb(88, 16, 79);
+}
+tips {
+    text-align: center;
+    color: rgb(253, 32, 224);
+}
