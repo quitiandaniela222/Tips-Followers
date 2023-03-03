@@ -1,52 +1,197 @@
-img {
-  display: block;
-  margin: auto;
-}
 header {
   background-repeat: repeat-y;
 }
+
 header {
-  background: rgba(241, 121, 187, 0.7);
+  background: #eeb5eb;
 }
+
 nav ul {
   list-style: none;
+  text-align: center;
+  margin: -1%;
 }
+
 nav ul li {
-  float: left;
-  margin-top: center;
-}
-nav ul li a {
-  font-weight: bold;
+  display: inline-block;
   font-size: 30px;
+  margin: 0 auto;
+}
+
+nav ul li a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
   padding: 18px;
   text-decoration: none;
   text-align: center;
+  margin: 0 auto;
+  font-family: serif
 }
+
 nav ul li:hover {
-  background: #fffdfa;
+  background: #f5c5f4;
 }
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.background {
+
+.list {
   text-align: center;
-  color: rgb(88, 16, 79);
+  color: #000000;
+  font-family: cursive;
+  font-size: 23px;
+  padding-top: 3%;
+  list-style: none;
+  text-decoration: none;
 }
-[href] {
-  color: rgb(10, 0, 5);
+
+.video {
+  margin: 0 auto;
+  width: 300px;
+  display: block;
 }
-a:hover {
-  color: rgb(233, 24, 87)
-}
-h2 {
-  text-align: center;
-  font-size: 24px;
-  color: rgb(190, 66, 228)
-}
-finish {
+
+#marketing {
+  background-image: url(../html/ImageFolder/Purple\ Colorful\ Blocks\ Blogger\ Bio-Link\ Website.png);
+  background-size: cover;
+  background-position: bottom center;
+  height: 300%;
+  width: 100%;
   display: block;
   margin: auto;
 }
-finish {
-  background-repeat: repeat-y;
+
+#marketing h4,
+h5 {
+  text-align: center;
+  color: #603c94;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px;
+  padding-top: 3%;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #603c94;
+  font-family: 'Times New Roman';
+}
+
+[href] {
+  color: rgb(10, 0, 5);
+}
+
+a:hover {
+  color: rgb(233, 24, 87)
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(47, 0, 61);
+  font-family: 'Times New Roman';
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(3, 3, 3)
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #cb73b0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.Agency {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7d2ec;
+
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  color: #1a0012;
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+ul li {
+  text-align: center;
+  font-size: 24px;
+  color: #360126;
+  font-family: cursive;
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.social img {
+  width: 12%;
+  height: 12%;
+}
+
+.Createqualitycontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cb73b0;
+
+}
+
+.Createqualitycontent img {
+  width: 27%;
+  height: 27%;
+  display: block;
+  margin: 0 auto
+}
+
+.Identifyyouraudience img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto
+}
+
+
+.finish {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: #f8b0e2;
+}
+
+.contact {
+  background-color: #ffdff5;
+  flex-direction: row-reverse;
+  text-align: center;
+  font-family: 'Times New Roman';
+}
+
+
+.finish img {
+  width: 27%;
+  height: 27%;
+  display: block;
+  margin: 0 auto
+}
+
+.image {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.image img {
+  width: 10%;
+  height: 10%;
 }
