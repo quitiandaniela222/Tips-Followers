@@ -2,26 +2,37 @@ img {
     display: block;
     margin: auto;
 }
+
 header {
     background-repeat: repeat-y;
 }
+
 header {
     background: rgba(241, 121, 187, 0.7);
 }
+
 nav ul {
     list-style: none;
+    text-align: center;
+    margin: 0;
 }
+
 nav ul li {
-    float: left;
-    margin-top: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 auto;
 }
+
 nav ul li a {
+    display: inline-block;
     font-weight: bold;
     font-size: 30px;
     padding: 18px;
     text-decoration: none;
     text-align: center;
+    margin: 0 auto;
 }
+
 nav ul li:hover {
     background: #fffdfa;
 }
@@ -29,15 +40,18 @@ nav ul li:hover {
 * {
     font-family: Georgia;
 }
+
 h3 {
     text-align: center;
     color: rgb(8, 8, 8);
 }
-.background {
+
+h1 {
     text-align: center;
     color: rgb(88, 16, 79);
 }
-tips {
+
+h2 {
     text-align: center;
     color: rgb(253, 32, 224);
 }
